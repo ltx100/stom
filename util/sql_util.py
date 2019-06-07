@@ -11,3 +11,6 @@ def intsert_sql(insert_str):
     cursor.close()
     conn.close()
     return result
+
+def creat_table(creat_sql):
+    pass
